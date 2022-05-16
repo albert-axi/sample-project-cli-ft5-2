@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    sample_project (0.1.0)
+      nokogiri
+      open-uri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.2.2)
+    nokogiri (1.13.6-x86_64-darwin)
+      racc (~> 1.4)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    racc (1.6.0)
+    rake (13.0.6)
+    stringio (3.0.1)
+    time (0.2.0)
+      date
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  nokogiri
+  open-uri
+  rake (~> 13.0)
+  sample_project!
+
+BUNDLED WITH
+   2.2.33

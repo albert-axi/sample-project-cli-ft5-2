@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require "bundler/setup"
+require "sample_project"
+# require_relative '../config/environment.rb'
+
+SampleProject::CLI.new.start
